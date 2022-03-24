@@ -1,8 +1,13 @@
 module github.com/alrusov/jsonw
 
-go 1.15
+go 1.17
 
 require (
-	github.com/alrusov/misc v0.1.34
-	github.com/json-iterator/go v1.1.10
+	github.com/alrusov/misc v0.1.54
+	github.com/json-iterator/go v1.1.12
+)
+
+require (
+	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
+	github.com/modern-go/reflect2 v1.0.2 // indirect
 )

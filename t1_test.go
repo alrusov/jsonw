@@ -114,7 +114,7 @@ func bMarshal(b *testing.B, useStd bool) {
 	bp := misc.InterfaceMap{}
 	for i := 0; i < 100; i++ {
 		bp[fmt.Sprintf("p_int_%d", i)] = i
-		bp[fmt.Sprintf("p_str_%d", i)] = `"zzz"/\'В чащах Юга жил бы цитрус?`
+		bp[fmt.Sprintf("p_str_%d", i)] = `"zzz"/\'В чащах Юга жил бы цитрус? Да, но фальшивый экземпляр.`
 	}
 
 	b.ResetTimer()
