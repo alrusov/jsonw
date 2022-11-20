@@ -22,7 +22,7 @@ func UseStd(useStd bool) {
 //----------------------------------------------------------------------------------------------------------------------------//
 
 // Marshal --
-func Marshal(data interface{}) ([]byte, error) {
+func Marshal(data any) ([]byte, error) {
 	if useStdLib {
 		return json.Marshal(data)
 	}
@@ -32,7 +32,7 @@ func Marshal(data interface{}) ([]byte, error) {
 }
 
 // Unmarshal --
-func Unmarshal(data []byte, obj interface{}) error {
+func Unmarshal(data []byte, obj any) error {
 	if useStdLib {
 		return json.Unmarshal(data, obj)
 	}

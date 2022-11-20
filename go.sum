@@ -1,5 +1,5 @@
-github.com/alrusov/misc v0.1.54 h1:oxBdS1mUNz5kkcK2J0eWzmw53K2GW/Y45TJJQg86O9E=
-github.com/alrusov/misc v0.1.54/go.mod h1:kb9wxXT9lZpuQ+72uRHs3iqnMiTD3NP9wfV+jeOxHoE=
+github.com/alrusov/misc v1.0.65 h1:OQFkS/cCc/bYxBE61hFPzRFGcuZlb1NSZQMOUpBuuRY=
+github.com/alrusov/misc v1.0.65/go.mod h1:vywA6CgYL87p+qxLP+FDuSRrNL6ZvJ0r+uDixw9rcmk=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

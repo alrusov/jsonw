@@ -1,9 +1,9 @@
 module github.com/alrusov/jsonw
 
-go 1.17
+go 1.19
 
 require (
-	github.com/alrusov/misc v0.1.54
+	github.com/alrusov/misc v1.0.65
 	github.com/json-iterator/go v1.1.12
 )
 
